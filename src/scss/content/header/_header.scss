@@ -13,4 +13,13 @@
             justify-content: space-between;
         }
     }
+    
+    &__logo {
+        width: 30rem;
+        margin-bottom: 3rem;
+
+        @include m.tablet { 
+            margin-bottom: 0;
+        }
+    }
 }
